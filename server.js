@@ -10,11 +10,11 @@
 }
 
 var express = require('express'),
-handlebars = require('express-handlebars');
-
-var fs = require('fs'),
-glob = require('glob'),
-watchr = require('watchr');
+    handlebars = require('express-handlebars'),
+    fs = require('fs'),
+    glob = require('glob'),
+    watchr = require('watchr'),
+    _ = require('underscore');
 
 var lorem = require('lorem-hipsum');
 
